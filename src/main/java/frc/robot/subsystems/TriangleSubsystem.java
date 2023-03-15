@@ -30,6 +30,7 @@ public class TriangleSubsystem extends SubsystemBase{
         left.setSelectedSensorPosition(0);
         // right.configReverseSoftLimitThreshold(6500);
         // right.configReverseSoftLimitEn>able(true);
+        //yessir
     }
     public void set(double x){
         right.set(TalonSRXControlMode.PercentOutput, 0.8 * x);
